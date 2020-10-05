@@ -1,0 +1,12 @@
+name: 4450_ws
+
+channels:
+    - conda-forge
+
+dependencies:
+   - python=3.6
+   - pip>=19.0.1
+   - numpy
+   - compas>=0.16.6
+   # - pip:
+   #   - git+https://git@github.com/compas-dev/compas.git@62a0e6c611681c3c3c16426ad5b47001c1814a07#egg=compas-0.16.6

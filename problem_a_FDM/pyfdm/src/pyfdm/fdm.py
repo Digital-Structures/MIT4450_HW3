@@ -126,7 +126,6 @@ def compute_fdm(node_coord, edge_node_ids, nodal_loads, force_densities, fixed_n
 
     # Solve
     # replace the following dumb initialization with the linear solve coordn_i = solve(.., ..)
-    
     coordn_i = node_coord[free, :]
 
     ##################################
